@@ -234,8 +234,8 @@ langDef = Tok.LanguageDef
   , Tok.identLetter     = alphaNum <|> oneOf "_'"
   , Tok.opStart         = oneOf ":!#$%&*+./<=>?@\\^|-~"
   , Tok.opLetter        = oneOf ":!#$%&*+./<=>?@\\^|-~"
-  , Tok.reservedNames   = reservedNames
-  , Tok.reservedOpNames = reservedOps
+  , Tok.reservedNames   = []
+  , Tok.reservedOpNames = []
   , Tok.caseSensitive   = True
   }
 ```
